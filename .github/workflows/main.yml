@@ -10,8 +10,13 @@ jobs:
     steps:
       - name: Autenticar no Docker Hub
         run: echo "Executando o comando docker login"
+        
+      - name: Autenticar no Docker Hub
+        run: echo "Executando o comando docker login"
+        
       - name: Construção da Imagen Docker
         run: echo "Executando o Comando docker build"
+        
       - name: Envio da Imagen Docker
         run: echo "Executando o Comando docker push"
         
